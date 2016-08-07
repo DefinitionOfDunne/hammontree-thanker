@@ -1,0 +1,31 @@
+@media screen and (max-width:800px) {
+
+
+body {
+	background-color: rgba(9, 154, 154, 0.62);
+	position: relative;
+}
+
+.content-circle {
+	box-sizing: border-box;
+	border: 15px solid white;
+    width: 80%;
+    height: 80%;
+	border-radius: 50%;
+	float: left;
+	display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    opacity: .4;
+
+}
+
+#circle-wrapper{
+    margin: 5rem auto;
+    width: 40rem;
+    height: 40rem;
+}
+
+}
