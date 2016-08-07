@@ -1,27 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
-	<title>Thanks Ya'll</title>
-	<link rel="stylesheet" href="style/desktop.css">
-	<link rel="stylesheet" href="style/mobile.css">
-	<link rel="stylesheet" href="style/animate.css">
-	<link rel="stylesheet" type="text/css" href="style/reset.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Thanks Ya'll</title>
+    <link rel="stylesheet" href="style/desktop.css">
+    <link rel="stylesheet" href="style/mobile.css">
+    <link rel="stylesheet" href="style/animate.css">
+    <link rel="stylesheet" type="text/css" href="style/reset.css">
 </head>
 
 <body>
-	<div id="full-wrapper">
-		<div class="overlay" id="modal">
-				<div class="content">
-					<h3>Greetings, Fam</h3>
-					<div>
-						<p class="letter-text">I can't tell you how happy it made me that I was able to spend a few days with you guys on my way back to Michigan, and how fitting it was that your house was my last stop on my way to start a career in tech. </p>
-						<p class="letter-text">I can't tell you how happy it made me that I was able to spend a few days with you guys on my way back to Michigan, and how fitting it was that your house was my last stop on my way to start a career in tech.I can't tell you how happy it made me that I was able to spend a few days with you guys on my way back to Michigan, and how fitting it was that your house was my last stop on my way to start a career in tech.I can't tell you how happy it made me that I was able to spend a few days with you guys on my way back to Michigan, and how fitting it was that your house was my last stop on my way to start a career in tech.I can't tell you how happy it made me that I was able to spend a few days with you guys on my way back to Michigan, and how fitting it was that your house was my last stop on my way to start a career in tech.I can't tell you how happy it made me that I was able to spend a few days with you guys on my way back to Michigan, and how fitting it was that your house was my last stop on my way to start a career in tech.I can't tell you how happy it made me that I was able to spend a few days with you guys on my way back to Michigan, and how fitting it was that your house was my last stop on my way to start a career in tech.I can't tell you how happy it made me that I was able to spend a few days with you guys on my way back to Michigan, and how fitting it was that your house was my last stop on my way to start a career in tech.	</p>
-					<button id="hide-message">Close</button>
+    <div id="full-wrapper">
+        <div class="overlay" id="scott-message">
+            <div class="content">
+                <h3>Scott</h3>
+                <div>
+                    <p class="letter-text">Hey man, </br></br>
+                    
+					At the risk of being a big cornball, I'm just this once going to try to explain the role your advice has played in my life over the past year and show a dash of my gratitude. </br></br> My life up until this point has been relatively void of meaningful career/success guidance and after just a few conversations with you this past winter I have given myself an opportunity to completely change my life projectory in less than a year. I know to you it was little more than a simple suggestion, but wow if it hasn't made a impact so profound that's hard to even wrap my mind around. Your guidance came at a point where I was pretty damn lost and it was 100% a combination of my mom's support and your phone calls that got me back on track. In that, I hope you can enjoy watching as I carve out a new life of hard work, success, and absolute happiness and take pride knowing the role you played in my transformation. </br> </p>
+					<p class="letter-text"> Love, </br> </br>
+					Dylan
+                    </p>
+                    <button class="hide-message">Close</button>
+                </div>
+            </div>
+        </div>
+        <div class="overlay" id="lynn-message">
+            <div class="content">
+                <h3>Lynn</h3>
+                <div>
+                    <p class="letter-text">Hey Lynn, </br></br>
+                    Thank you so much for the hospitality over the weekend. Hanging around in your beautiful house and eating so much delicious food was definitely the perfect little final boost of motivation I needed before landing back here THE D, where errbody is hustlin' to make it out :) </br></br>
+                    Holden's goatee aside, you and Scott have built such a beautiful little cool-ass family and spending time out there with ya'll was just so much fun. If all goes well here, I look forward to hosting ya'll back here where your roots are within a few years! Just don't forget the family guns ;)  </br> </p>
+					<p class="letter-text"> Love, </br> </br>
+					Dylan
+                    </p>
+                    
+                    <button class="hide-message">Close</button>
+                </div>
+            </div>
+        </div>
+        <div class="overlay" id="holden-message">
+            <div class="content">
+                <h3>Holden</h3>
+       				<h4>Mandatory Albums </h4>
+       				<ul>
+       					<li class='bold'>1. Read Music/Speak Spanish By Desaparecidos</li>
+       					<li>A Punk Folk Offshoot From Conor Oberst of Bright Eyes absolutely raging against capitalism and other atrocities of corporate America.</li>
+       					<li class='bold'>2. Get Disowned By Hop Along</li>
+						<li>A super raw indie folk rock with a lead singer chick that will shred your soul.
+       					</li>
+
+       				</ul>
+         			<div id="player"></div>
+                    <button class="hide-message">Close</button>
+               
+            </div>
+        </div>
+        <div class="overlay" id="claire-message">
+            <div class="content">
+                <h3>Claire</h3>
+                <h4>My Completely Unsolicited College Advice</h4>
+						<ul>
+							<li class='bold' id='cross-out'>1. Find A Nice Boy With Flippers For Feet And Date Him </li>
+							<li class='bold'>2. Getting Really Good Grades Is Important But Getting At Least Pretty Good Grades Is SUPER Important.</li>
+							<li class='bold'>3. Get Involved With Important, Meaningful, and Enjoyable Things and Only Those Things. Be Stingy With Your Time and Energy.</li>
+							<li class='bold'>4. Make Sure You Can End Each Semester By Looking Back And Saying Wow I Didn't Think That Much Fun Was Possible In An Entire Lifetime.</li>
+						</ul>
+					
+						<button class="hide-message">Close</button>
 					</div>
 				</div>
-			</div>
 	<header>
 		<p id="header-text">Thank You Letting Me Spend A Little Time In Lake Wylie!</p>
 	</header>
@@ -39,7 +90,7 @@
 				<p class="name-text">Holden</p>
 			</div>
 		</div>
-		<button id='message-revealer'>Click Me!</button>
+		</div>
 	</div>
 	<script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="js/app.js"></script>
